@@ -1,9 +1,10 @@
+let fruits = "Apple"
 
-(fruits) {
-    "Banana":
-    alert("Hello")
+switch(fruits) {
+    case "Banana":
+        alert("Hello")
     break;
-    "Apple":
-    alert("Welcome")
+    case "Apple":
+        alert("Welcome")
     break;
 }
